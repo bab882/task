@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.formInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.input {
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #999;
+    color: #999;
+}
+
+.input::placeholder {
+    padding-left: 10px;
+    color: #999;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.input:focus {
+    box-shadow: 0 0 5px rgba(2, 103, 255, 0.8);
+    outline: none;
+    color: #060606;
+}
+
+.buttonadd {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #0267ff;
+    background: #0267ff;
+    color: #ffffff;
+}

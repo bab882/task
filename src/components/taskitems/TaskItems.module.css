@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    border-radius: 8px;
+    padding: 12px 16px;
+    cursor: pointer;
+    background-color: green;
+    font-size: 0.9em;
+}
+
+.item {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    font-size: 0.9em;
+}
+
+.default {
+    background: rgba(59, 121, 246, 0.03);
+    border-color: #272727;
+}
+
+.default:hover {
+    background-color: #0267ff14;
+    border-color: rgba(59, 121, 246, 0.15);
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    margin: 0 2px;
+}
+
+.numberDefault {
+    background: rgba(84, 255, 14, 0.15);
+}
+
+.success {
+    background-color: rgba(84, 255, 14, 0.07);
+    border-color: rgba(84, 255, 14, 0.2);
+}
+
+.id {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 9999px;
+    font-weight: 900;
+    font-size: 0.75em;
+}
+
+.idDefault {
+    background-color: rgba(59, 121, 246, 0.15);
+    color: #2870ff;
+}
+
+.idSuccess {
+    background-color: rgba(82, 255, 14, 0.23);
+    color: rgb(78, 147, 50);
+}
+
+.contentDefault {
+    color: #060606;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.contentSuccess {
+    text-decoration: line-through;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(78, 147, 50);
+}
+
+.buttonDelete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2870ff;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #2870ff;
+    color: #ffffff;
+    border-radius: 50%;
+}
+
