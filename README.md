@@ -5,6 +5,10 @@
 Ce projet est une application développé avec React et Vite, intégrant un système d'authentification via Firebase et une To-Do Liste. 
 Il utilise React Router pour la navigation.
 
+Et déployé avec Netlify
+
+```https://tachy.netlify.app/```
+
 ## Installation
 
 ### 1. Installer React avec Vite
